@@ -1,16 +1,38 @@
-## Hi there 👋
+# Привіт! Я [Твоє Ім'я] 👋
+Студент-розробник / Початківець у сфері QA & Python Backend.
 
-<!--
-**dooorlively/dooorlively** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+## 🛠 Технічний стек
+- **Мови та технології:** Python 3, SQL, Git
+- **Фреймворки:** Django, FastAPI, aiogram (Telegram Bot API), Flask
+- **Бази даних:** SQLite (робота через ORM та нативні SQL-запити)
+- **Інструменти:**  Pillow (обробка медіа)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 📂 Портфоліо навчальних проєктів
+
+### 1. [Tarkov Gear Store & Telegram Bot](https://github.com/dooorlively/django)
+Вебмаркетплейс ігрового спорядження на **Django** із супутнім **Telegram-ботом** на `aiogram 3`:
+- Спільна база даних (SQLite) для вебзастосунку та асинхронного Telegram-бота.
+- Робота з каталогом, фільтрація за калібрами та класами захисту, облік залишків.
+- Реалізація двох типів кошика (ORM `CartItem` проти сесійних списків).
+- Фіксація цін на момент купівлі (`price_at_time`) та вивантаження історії замовлень через складний `LEFT JOIN`.
+
+### 2. [Tarkov Gear Store — FastAPI SSR](https://github.com/dooorlively/Fastapi)
+Реалізація аналогічної платформи на мікрофреймворку **FastAPI** з фокусом на продуктивність та низькорівневу обробку даних:
+- Серверний рендеринг через Jinja2 і захист адмін-роутів через механізм Dependency Injection (`Depends`).
+- Оптимізація та санітизація завантажуваних зображень на льоту за допомогою бібліотеки `Pillow`.
+- Прямі параметризовані SQL-запити з використанням агрегатної функції `COALESCE` для об'єднання різних категорій товарів.
+
+### 3. [Marketplace Core — Flask](https://github.com/твій_нік/dooorlively/Flask)
+Базова реалізація інтернет-магазину на **Flask**:
+- Дослідження роботи з роутингом, сесіями користувачів та легковаговими шаблонами.
+
+---
+
+📫 **Контакти:**  
+- Telegram: [@door_lively]  
+- Email: [твій s0935023024@gmail.com]
+  
