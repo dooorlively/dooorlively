@@ -34,5 +34,5 @@
 
 📫 **Контакти:**  
 - Telegram: [@door_lively]  
-- Email: [твій s0935023024@gmail.com]
+- Email: [s0935023024@gmail.com]
   
